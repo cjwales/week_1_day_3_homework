@@ -32,5 +32,3 @@ stops.reverse
 for station in stops
   p station
 end
-
-#p stops
