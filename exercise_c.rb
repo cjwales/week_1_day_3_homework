@@ -28,7 +28,7 @@ ni = {
 united_kingdom.push(ni)
 
 #Use a loop to print the names of all the countries in the UK.
-def find_names_of_countries(array)
+def print_names_of_countries(array)
 
   for country in array
     if country[:name].is_a? String
@@ -37,7 +37,7 @@ def find_names_of_countries(array)
   end
 end
 
-find_names_of_countries(united_kingdom)
+print_names_of_countries(united_kingdom)
 
 
 #Use a loop to find the total population of the UK.
