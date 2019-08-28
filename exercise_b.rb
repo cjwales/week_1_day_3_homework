@@ -92,3 +92,11 @@ petdog = {
 users ["Erik"][:pets].push(petdog)
 
 #Add another person to the users hash
+neil = {
+  "Neil" => {
+    :twitter => "neilio",
+    :home_town => "Glasgow"
+  }
+}
+users.merge!(neil)
+p users
