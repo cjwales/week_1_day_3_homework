@@ -19,14 +19,19 @@ stops.delete("Livingston")
 stops.delete_at(2)
 
 #How many stops there are in the array?
-stops.count
+stops.count()
 
 #How many ways can we return "Falkirk High" from the array?
 stops[2]
 stops.at(2)
+stops[stops.index("Falkirk High")]
+stops.each{|x| if x == "Falkirk High"}
+stops[-5]
+stops.fetch(2)
+stops.at(-5)
 
 #Reverse the positions of the stops in the array
-stops.reverse
+stops.reverse()
 
 #Print out all the stops using a for loop
 for station in stops

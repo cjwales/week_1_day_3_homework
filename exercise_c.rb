@@ -43,7 +43,7 @@ total_population = 0
 
 for country in united_kingdom
   total_population += country[:population]
-  country[:population] = 0
+  #country[:population] = 0
 end
 
 p total_population.to_s
