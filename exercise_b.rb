@@ -67,7 +67,6 @@ users ["Erik"][:lottery_numbers]
 users ["Avril"][:pets][0][:species]
 
 #Get the smallest of Erik's lottery numbers
-#users ["Erik"][:lottery_numbers][2]
 users ["Erik"][:lottery_numbers].min()
 
 #Return an array of Avril's lottery numbers that are even
