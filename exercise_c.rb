@@ -31,11 +31,9 @@ united_kingdom.push(ni)
 def print_names_of_countries(array)
 
   for country in array
-    #if country[:name].is_a? String
       p country[:name]
     end
   end
-#end
 
 print_names_of_countries(united_kingdom)
 
